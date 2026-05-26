@@ -125,3 +125,7 @@ Constraints
 
 1<=N<=20
 1<=Arr[i]<=10000
+
+18. Given an array divisible by 3, find the maximum difference between the sum of the first half and the sum of the second half of the array after removing n/3 elements.
+
+19. Write a function to find the repeating characters or substrings within a given string and return them.
