@@ -1,0 +1,169 @@
+1. You are given a string s and a word list w which is a list of unique strings. You have to determine if s can be broken down into a sequence of words where each word is an element in w.
+
+Examples:
+  s: “workattech”
+  w: [“tech”, “work”, “problem”, “at”]
+  Result: true
+
+s: “roundandround”
+w: [“and”, “round”]
+Result: true
+
+s: “helloworld”
+w: [“hi”, “world”]
+Result: false
+
+Testing:
+The first line contains an integer ‘T’, denoting the number of test cases.
+For each test case the input has three lines:
+The string s.
+An integer ‘n’ denoting the size of the word list w.
+n space-separated strings denoting the elements of the word list w.
+
+Expected Output:
+For each test case, a line containing 1 or 0 depending on whether the string s can be partitioned or not respectively..
+
+Sample Input
+ 3
+workattech
+4
+tech work problem at
+roundandround
+2
+and round
+helloworld
+2
+hi world
+
+Expected Output
+ 1
+ 1
+ 0
+
+Constraints
+1 <= T <= 100
+1 <= s length <= 50
+1 <= w size <= 10
+1 <= wi length <= 10
+
+
+
+2.  Given the nodes and adjacency list of a graph, calculate the adjacency matrix for the it.
+You have a graph with n nodes indexed from 0 to n-1. You are also given the adjacency list for each node.
+You have to return the adjacency matrix for the given graph.
+
+Example
+adjacency-list-to-adjacency-matrix
+Testing
+Input Format
+The first line contains an integer T denoting the number of test cases.
+
+For each test case, the input has the following lines:
+
+    * The first line contains the integer n.
+    * The next n lines descibes the adjacent nodes for the ith node.
+    * The first integer m denotes the number of adjacent nodes.
+    * The next m integers denote adjacent nodes.
+
+Output Format:
+For each test case, the output has n lines denoting the adjacency matrix of the graph.
+
+Sample Input
+2
+4
+3 1 2 3
+1 0
+2 0 3
+2 0 2
+4
+3 1 2 3
+1 0
+2 0 3
+3 0 2 3
+
+Expected Output:
+
+0 1 1 1
+1 0 0 0
+1 0 0 1
+1 0 1 0
+0 1 1 1
+1 0 0 0
+1 0 0 1
+1 0 1 1
+
+Constraints:
+
+1 <= T <= 10
+1 <= n <= 500
+0 <= m <= n
+
+3.  Given a sorted array arr[] of size n, the goal is to rearrange the array so that all distinct elements appear at the beginning in sorted order. Additionally, return the length of this distinct sorted subarray.
+    Note: The elements after the distinct ones can be in any order and hold any value, as they don't affect the result.
+
+Examples:
+      Input: arr[] = [2, 2, 2, 2, 2]
+      Output: [2]
+      Explanation: All the elements are 2, So only keep one instance of 2.
+
+      Input: arr[] = [1, 2, 2, 3, 4, 4, 4, 5, 5]
+      Output: [1, 2, 3, 4, 5]
+
+      Input: arr[] = [1, 2, 3]
+      Output: [1, 2, 3]
+      Explanation : No change as all elements are distinct.
+
+4. Given two strings S1 and S2. The task is to concatenate uncommon characters of the S2 to S1  and return the resultant string S1 .
+      Input: S1 = "aacdb", S2 = "gafd"
+      Output: "cbgf"
+
+
+
+      Input: S1 = "abcs", S2 = "cxzca";
+      Output: "bsxz"
+
+5. Given an array of words arr[], the task is to groups strings that are anagrams. An anagram is a word or phrase formed by rearranging the letters of another, using all the original letters exactly once.
+
+Example:
+
+  Input: arr[] = ["act", "god", "cat", "dog", "tac"]
+  Output: [["act", "cat", "tac"], ["god", "dog"]]
+  Explanation: There are 2 groups of anagrams "god", "dog" make group 1. "act", "cat", "tac" make group 2.
+
+  Input: arr[] = ["listen", "silent", "enlist", "abc", "cab", "bac", "rat", "tar", "art"]
+  Output: [["abc", "cab", "bac"], ["listen", "silent", "enlist"],["rat", "tar", "art"]]
+
+  Explanation: 
+  Group 1: "abc", "bac" and "cab" are anagrams.
+  Group 2: "listen", "silent" and "enlist" are anagrams.
+  Group 3: "rat", "tar" and "art" are anagrams.
+
+6. Given two sorted arrays a[] and b[] and an element k, the task is to find the element that would be at the kth position of the combined sorted array.
+
+Examples :
+
+  Input: a[] = [2, 3, 6, 7, 9], b[] = [1, 4, 8, 10], k = 5
+  Output: 6
+  Explanation: The final combined sorted array would be [1, 2, 3, 4, 6, 7, 8, 9, 10]. The 5th element of this array is 6.
+
+  Input: a[] = [1, 4, 8, 10, 12], b[] = [5, 7, 11, 15, 17], k = 6
+  Output: 10
+  Explanation: Combined sorted array is [1, 4, 5, 7, 8, 10, 11, 12, 15, 17]. The 6th element of this array is 10.
+
+Constraints:
+1 ≤ a.size(), b.size() ≤ 106
+1 ≤ k ≤ a.size() + b.size()
+0 ≤ a[i], b[i] ≤ 108
+
+
+
+
+
+
+
+
+
+
+
+
+
