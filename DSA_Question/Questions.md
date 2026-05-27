@@ -129,3 +129,118 @@ Constraints
 18. Given an array divisible by 3, find the maximum difference between the sum of the first half and the sum of the second half of the array after removing n/3 elements.
 
 19. Write a function to find the repeating characters or substrings within a given string and return them.
+
+
+
+20.	Which of the following methods is used to traverse an array in programming?
+
+○	A) Recursion
+
+○	B) Looping  
+
+○	C) Direct access
+
+○	D) Memory mapping
+
+
+
+21.	What is the time complexity of inserting an element at the beginning of an array of size n, assuming there is no extra space?
+
+○	A) O(1)
+
+○	B) O(n)  
+
+○	C) O(log n)
+
+○	D) O(n^2)
+
+
+
+22.	Given an array of size n, what is the time complexity of deleting an element from the middle of the array (i.e., shifting elements)?
+
+○	A) O(1)
+
+○	B) O(log n)
+
+○	C) O(n) 
+
+○	D) O(n^2)
+
+
+
+23.	Which of the following is true about the array traversal?
+
+○	A) Traversal can only be done using a for-loop.
+
+○	B) Traversal can be done using recursion and loops. 
+
+○	C) Traversal is not necessary in an array.
+
+○	D) Traversal is only applicable in linked lists.
+
+
+24.	What happens if you insert an element into a full array without dynamic memory allocation?
+
+○	A) The new element is inserted at the end of the array.
+
+○	B) The array throws an "array full" error. 
+
+○	C) The array automatically resizes.
+
+○	D) The first element is overwritten.
+
+
+25.	Which of the following operations has the best time complexity in an array of fixed size?
+
+○	A) Insertion at the beginning
+
+○	B) Insertion at the end   
+
+○	C) Deletion from the middle
+
+○	D) Traversal of the array
+
+
+26.	If you have an array and you need to delete an element and shift all elements to the left, what operation would you perform?
+
+○	A) Bubble sort
+
+○	B) Linear search 
+
+○	C) Linear shift 
+
+○	D) Stack push
+
+
+27.	What is the result of deleting an element from an array at index i?
+
+○	A) The element is removed, and the array size is decreased by 1. 
+
+○	B) The element is removed, but the array size remains the same. 
+
+○	C) The element is moved to the end of the array.
+
+○	D) The array gets reallocated.
+
+
+28.	What is the time complexity of accessing an element in an array using its index?
+
+○	A) O(n)
+
+○	B) O(log n)
+
+○	C) O(1)  
+
+○	D) O(n^2)
+
+
+29.	When inserting an element into an unsorted array at a random position, what is the time complexity?
+
+○	A) O(1)
+
+○	B) O(n)  
+
+○	C) O(log n)
+
+○	D) O(n^2)
+
