@@ -156,6 +156,31 @@ Constraints:
 0 ≤ a[i], b[i] ≤ 108
 
 
+8. What is the time complexity of inserting an element into a heap?
+
+A) O(n)
+B) O(log n)
+C) O(1)
+D) O(n log n)
+
+9. Which of the following data structures is best suited for implementing a LRU (Least Recently Used) cache?
+
+A) Hash Table and Queue
+B) Binary Search Tree
+C) Stack
+D) Heap
+
+10. Which sorting algorithm uses the divide and conquer approach but is NOT a stable sorting algorithm?
+
+A) Merge Sort
+B) Bubble Sort
+C) Quick Sort
+D) Insertion Sort
+
+
+
+
+
 
 
 
